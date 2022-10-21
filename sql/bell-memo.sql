@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `memo_tag_data` (
   /* 主键ID */
   `tag_id` int(10) NOT NULL, 
   /* 主键ID */
-  `memo_id` ibinary(36) NOT NULL, 
+  `memo_id` binary(36) NOT NULL, 
   /* 主键ID */
   `created` int(11) NOT NULL DEFAULT 0, 
   /* 主键ID */
